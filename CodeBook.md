@@ -35,7 +35,7 @@ Each row contains, for a given subject and activity, 79 averaged signal measurem
 5. STANDING
 6. LAYING
 
-## Measurements
+### Measurements
 - "tBodyAcc-mean()-X"
 - "tBodyAcc-mean()-Y"
 - "tBodyAcc-mean()-Z"
@@ -103,5 +103,5 @@ Each row contains, for a given subject and activity, 79 averaged signal measurem
 - "fBodyBodyGyroJerkMag-mean()"
 - "fBodyBodyGyroJerkMag-std()"
 
-## Variable units
+### Variable units
 Subject variable is integer type. Activity variable is factor type. All the other variables are numeric type.
