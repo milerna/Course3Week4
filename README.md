@@ -2,10 +2,10 @@
 Coursera Assignment
 
 The repo contains the following 4 files:
+\begin{enumerate}
+  \item{README: Explains how all of the scripts work and how they are connected.}
 
-  README: Explains how all of the scripts work and how they are connected.
-
-  CodeBook.md: a code book that describes the variables, the data, and any transformations or work that were performed to clean up the       data
+  \item{CodeBook.md: a code book that describes the variables, the data, and any transformations or work that were performed to clean up the       data}
 
   run_analysis.R: an R file, that does the following:
 
