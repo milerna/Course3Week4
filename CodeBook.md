@@ -1,10 +1,10 @@
 # Dataset description
-##Data
+## Data
 The tidy_data.txt data file, which is also placed in the repository, is a text file containing space-separated values.
 
 The first row contains the names of the variables, which are listed and described below in the Variables section; the 180 rows after contain the values of these variables.
 
-##Transformations to the data
+## Transformations to the data
 The script `run_analysis.R`performs the following transformations to the data, which has been downloaded and unzipped "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 * `x_train`, `y_train`, `x_test`, `y_test`, `sub_train` and `sub_test` contain the data from the downloaded files.
