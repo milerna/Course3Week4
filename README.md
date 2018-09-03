@@ -9,19 +9,15 @@ The repo contains the following 4 files:
 
  2. run_analysis.R: an R file, that does the following:
 
-  Merges the training and the test sets to create one data set.
+  * Merges the training and the test sets to create one data set.
+  * Extracts only the measurements on the mean and standard deviation for each measurement.
+  * Uses descriptive activity names to name the activities in the data set
+  * Appropriately labels the data set with descriptive variable names.
+  * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each     subject.
   
-  Extracts only the measurements on the mean and standard deviation for each measurement.
+ In order for run_analysis.R to run, the data has to be downloaded and unzipped.
   
-  Uses descriptive activity names to name the activities in the data set
-  
-  Appropriately labels the data set with descriptive variable names.
-  
-  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each     subject.
-  
-  In order for run_analysis.R to run, the data has to be downloaded and unzipped.
-  
- 3. CodeBook.md: a code book that describes the variables, the data, and any transformations or work that were performed to clean up the       data
+ 3. CodeBook.md: a code book that describes the data, the transformations that were performed and the varables in the final dataset.
  
  4. tidydata.txt: data set with the average of each variable for each activity and each subject.
 
